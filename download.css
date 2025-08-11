@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    gap: 61px;
+}
+
+.para {
+    font-family: 'Segoe UI', Tahoma;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.sorry {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.sorry img {
+    height: 30px;
+    margin-top: 100px;
+}
+
+.hello {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+.btn {
+    width: 270px;
+    height: 48px;
+    color: white;
+    background-color: #00b6d1;
+    border: none;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 7px;
+    font-family: 'Segoe UI', Tahoma;
+}
+
+.jee {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.high {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 60px;
+    gap: 10px;
+
+}
+
+.high img {
+    margin-left: 100px;
+}
+
+.box {
+    width: 267px;
+    height: 200px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    align-items: center;
+    padding-top: 30px;
+    font-family: 'Segoe UI', Tahoma;
+    margin-top: 20px;
+}
+
+.green {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+body{
+    max-width: 100%;
+}
+
+.third {
+    background-color: #222;
+    height: 800px;
+    width: 100%;
+    position: static;
+    margin-top: 40px;
+}
+
+.man {
+    color: white;
+    text-align: center;
+    gap: 23px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.gray {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.best {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 250px;
+    width: 400px;
+    border-radius: 8px;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.best input {
+    width: 270px;
+    height: 48px;
+    font-size: 20px;
+}
+.footerss{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    max-width: 90vw;
+    margin: auto;
+    padding-top: 70px;
+}
+.boot{
+    width: 200px;
+    height: 48px;
+    font-size:15px;
+    border-radius: 7px;
+    margin-bottom: 10px ;
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+    font-size: large;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+}
+.cop{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    opacity: 0.9;
+}
+.boot{
+    width: 190px;
+    height: 48px;
+    font-size:15px;
+    border-radius: 7px;
+    margin-bottom: 10px ;
+    background-color: #00b6d1;
+    color: white;
+    border: none;
+}
+.nexus{
+    margin: 30px 30px;
+}
+.same ol li{
+    list-style: none;
+    padding-top: 7px;
+    font-family: 'Segoe UI';
+    opacity: 0.9;
+    font-size: 13px;
+}
+ input {
+    width: 190px;
+    height: 48px;
+    font-size:15px;
+    border-radius: 7px;
+    margin-bottom: 10px ;
+}
+.hell:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.end{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    font-family: 'Segoe UI', Tahoma;
+
+}
+
+@media screen and (max-width:830px) {
+    .para{
+      font-size:34px;
+    }
+    .sorry{
+      display: flex;
+      flex-direction: row;
+      gap: 5px;
+      justify-content: center;
+      align-items: center;
+    }
+  } 
+@media screen and (max-width:820px) {
+    .second{
+        
+            display: flex;
+            flex-direction: column; 
+}
+.third{
+    margin-top: 20px;
+}
+
+}
