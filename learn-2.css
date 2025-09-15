@@ -292,3 +292,177 @@ li:hover{
     font-family: 'Segoe UI';
     font-weight: 600;
 }
+/* 📱 Tablets and small laptops */
+@media screen and (max-width: 1024px) {
+  .second {
+    flex-direction: column;
+    height: auto;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  .second img {
+    width: 90%;
+    height: auto;
+  }
+  .strong {
+    gap: 25px;
+  }
+
+  .third {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .para {
+    margin: 20px;
+  }
+
+  .fourth {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .container {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .fifth {
+    height: auto;
+    padding: 40px 20px;
+  }
+  .late {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    padding-top: 40px;
+  }
+
+  .back {
+    height: auto;
+    padding: 20px;
+  }
+  .ice {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+  .bat {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+
+  .footerss {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+  .nexus {
+    grid-column: span 3;
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+
+/* 📱 Mobiles */
+@media screen and (max-width: 768px) {
+  .main {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .strong h1 {
+    font-size: 24px;
+  }
+  .strong ol {
+    margin-left: 10px;
+  }
+  .btn {
+    width: 90%;
+    max-width: 300px;
+    font-size: 16px;
+    height: 56px;
+  }
+
+  .gray {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .industries {
+    height: auto;
+    font-size: 18px;
+    padding: 20px;
+  }
+  .images {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  .images img {
+    width: 80%;
+  }
+
+  .third img {
+    width: 100%;
+  }
+
+  .fourth > :first-child {
+    font-size: 26px;
+  }
+  .yellow, .wheat {
+    width: 90%;
+    margin: auto;
+  }
+
+  .sentence {
+    text-align: center;
+  }
+  .sentence img {
+    width: 90%;
+  }
+
+  .fifth .wall {
+    margin: 0 20px;
+    text-align: left;
+  }
+  .bee {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .footerss {
+    grid-template-columns: 1fr 1fr;
+  }
+  .nexus {
+    grid-column: span 2;
+  }
+}
+
+/* 📱 Small Mobiles */
+@media screen and (max-width: 480px) {
+  body {
+    font-size: 14px;
+  }
+  .strong h1 {
+    font-size: 20px;
+  }
+  .btn {
+    width: 100%;
+    height: 50px;
+    font-size: 14px;
+  }
+
+  .fourth > :first-child {
+    font-size: 20px;
+  }
+  .footerss {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .nexus {
+    grid-column: span 1;
+  }
+}
