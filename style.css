@@ -208,9 +208,43 @@ body {
   margin-top: 20px;
 }
 
-/* ========================= */
-/* MEDIA QUERIES */
-/* ========================= */
+.btn-3 {
+  display: inline-block;
+  background: #00b6d1;
+  color: white;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 14px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.btn-3:hover {
+  background: #0090a8;
+}
+
+/* 📱 Responsive buttons */
+@media screen and (max-width: 768px) {
+  .btn-3 {
+    font-size: 16px;
+    padding: 12px 20px;
+    min-width: 180px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .btn-3 {
+    font-size: 14px;
+    padding: 10px 16px;
+    width: 100%;  
+  }
+}
+
+
+
 
 /* Tablets */
 @media screen and (max-width: 1024px) {
